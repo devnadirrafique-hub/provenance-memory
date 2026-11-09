@@ -1,0 +1,19 @@
+# DRAFT — catalog entry for the Hermes plugin catalog.
+# Submitted later as a PR to NousResearch/hermes-agent, adding this file to
+# plugin-catalog/. The sha MUST be the exact 40-hex commit SHA of the
+# submitted plugin repo at PR time — fill it in then, never guess it.
+name: provenance-memory
+repo: https://github.com/devnadirrafique-hub/provenance-memory
+sha: TODO-FILL-IN-EXACT-40-HEX-SHA-AT-PR-TIME
+description: Provenance memory for the Hermes Agent — every tool result is logged with its source, and the agent can store a fact with its source, recall what it knows with sources attached, and trace one fact back to where it came from. Fully local, no network.
+maintainer: devnadirrafique
+tier: community
+category: memory
+requires_hermes: ">=0.19"
+version: "0.1.0"
+readme: true
+capabilities:
+  provides_tools: [provenance_remember, provenance_recall, provenance_where_from]
+  provides_hooks: [post_tool_call]
+  provides_middleware: []
+  requires_env: []

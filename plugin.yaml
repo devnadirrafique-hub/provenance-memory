@@ -1,0 +1,11 @@
+name: provenance-memory
+version: "0.1.0"
+description: Remembers where each piece of information came from, so the agent can say what it knows and how it knows it.
+author: Nadir Rafique
+requires_hermes: ">=0.19"
+provides_tools:
+  - provenance_remember
+  - provenance_recall
+  - provenance_where_from
+provides_hooks:
+  - post_tool_call
