@@ -3,6 +3,12 @@
 Remembers where each piece of information came from, so the agent can say
 what it knows and how it knows it.
 
+## Demo
+
+Watch the plugin in action (49 seconds):
+
+[provenance-memory-demo.mp4](demo/provenance-memory-demo.mp4)
+
 ## What it does
 
 Two things, both local — nothing leaves the machine, no network, no model
@@ -82,3 +88,8 @@ hermes plugins validate . --install-deps
 ## License
 
 MIT. Built for the Nous Hermes Agent Plugin Hackathon.
+
+## Credits
+
+Built by Nadir Rafique with Muse, my AI agent — it drafted the code, I tested
+and verified every line.
